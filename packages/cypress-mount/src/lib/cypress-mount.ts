@@ -1,4 +1,13 @@
-import { Component, NgModule, PlatformRef, SchemaMetadata, Type, ViewEncapsulation } from '@angular/core';
+/// <reference types="cypress"/>
+
+import {
+  Component,
+  NgModule,
+  PlatformRef,
+  SchemaMetadata,
+  Type,
+  ViewEncapsulation,
+} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { Story } from '@storybook/angular';
