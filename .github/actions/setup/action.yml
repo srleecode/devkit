@@ -16,10 +16,6 @@ runs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ inputs.node-version }}
-        # This doesn't just set the registry url, but also sets
-        # the right configuration in .npmrc that reads NPM token
-        # from NPM_AUTH_TOKEN environment variable.
-        registry-url: https://registry.npmjs.org
     - name: Cache node modules
       uses: actions/cache@v2
       env:
